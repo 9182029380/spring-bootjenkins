@@ -12,5 +12,10 @@ public class controller {
         {
             return "Hello javaTpoint";
         }
+    @GetMapping("/login")
+    public String login()
+    {
+        return "welcome to our world ";
+    }
     }
 
